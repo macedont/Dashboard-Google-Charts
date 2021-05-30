@@ -16,6 +16,7 @@
 				<?php include 'terceiroGrafico.php'; ?>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-12">
 				<?php include 'segundoGrafico.php' ?>

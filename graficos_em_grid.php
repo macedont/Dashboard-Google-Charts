@@ -10,10 +10,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<?php echo include 'primeiroGrafico.php' ?>
+				<?php include 'primeiroGrafico.php' ?>
 			</div>
 			<div class="col-md-6">
-				<?php echo include 'segundoGrafico.php' ?>
+				<?php include 'terceiroGrafico.php'; ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<?php include 'segundoGrafico.php' ?>
 			</div>
 		</div>
 	</div>

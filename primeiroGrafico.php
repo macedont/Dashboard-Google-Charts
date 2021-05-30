@@ -1,10 +1,11 @@
  <?php
-            include 'coneccao.php';
+            include 'conexao.php';
             $sql = $pdo->query("SELECT * FROM cidades limit 6")->fetchAll();
 ?>
         
   <html>
   <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);

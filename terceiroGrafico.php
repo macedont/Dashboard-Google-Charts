@@ -1,10 +1,10 @@
  <?php
-            include 'coneccao.php';
+            include 'conexao.php';
             $sql = $pdo->query("SELECT * FROM cidades limit 6")->fetchAll();
 ?>
 <html>
   <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
@@ -32,6 +32,6 @@
     </script>
   </head>
   <body>
-    <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+    <div id="piechart_3d" style="height: 500px;"></div>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-  include 'conexao.php';
+  include '../conexao/conexao.php';
   $sql = $pdo->query("SELECT * FROM cidades limit 6")->fetchAll();
 ?>
 <html>

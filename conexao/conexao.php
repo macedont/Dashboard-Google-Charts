@@ -1,7 +1,7 @@
 <?php
 
 $servidor = "localhost";
-$banco = "base_cidades";
+$banco = "dashboard"; //base_cidades é o outro banco
 $senha = "";
 $user = "root";
 $dsn = ("mysql:host=$servidor; dbname=$banco");

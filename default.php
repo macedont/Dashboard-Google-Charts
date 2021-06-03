@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card text-white bg-primary">
+				<div class="card text-white bg-primary sombra">
 					<div class="card-header">
 						Total Clientes / Ano
 					</div>
@@ -27,7 +27,7 @@
 			</div>
 
 			<div class="col-md-4">
-				<div class="card text-white bg-success">
+				<div class="card text-white bg-success sombra">
 					<div class="card-header">
 						Faturamento Anual
 					</div>
@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="col-md-4">
-				<div class="card text-white bg-dark">
+				<div class="card text-white bg-dark sombra">
 					<div class="card-header">
 						Quantidade Vendas
 					</div>
